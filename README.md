@@ -238,7 +238,6 @@ This section demonstrates how to access a specific field within the dataset whil
 
 ~~~py
 # explore.py
-
 import pandas as pd
 import time
 
@@ -250,6 +249,7 @@ data = pd.read_csv(
     chunksize= 50000
 )
 
+# loop
 for idx, chunk in enumerate(data):
     if idx == 0:
         df = pd.DataFrame(chunk)
@@ -300,23 +300,35 @@ Lalaland
 FILE LOADED! this operation took 0.2867546081542969 seconds
 ~~~
 
-### Modified data to new csv
+### Modifying Data and Creating a New CSV
+
+This section demonstrates the process of modifying data and generating a new CSV file using Python.
 
 ~~~py
 # explore.py
+import pandas as pd
+import time
 
+start = time.time() 
+data = pd.read_csv(
+    "data.csv", 
+    encoding='latin1', 
+    usecols=['Año', 'Entidad', 'Municipio', 'Bien jurídico afectado', 'Tipo de delito', 'Modalidad' ]
+)
+
+data.to_csv('modified_data.csv', index=False, encoding='utf-8') # creating a new csv
+
+print('FILE LOADED! this operation took', time.time()-start, 'seconds')
+print('Data Shape: ', data.shape)
 ~~~
 ~~~sh
-
+# console
+❯ python3 explore.py
+FILE LOADED! this operation took 9.190748453140259 seconds
+Data Shape:  (2075738, 6)
 ~~~
 
-~~~py
-# explore.py
-
-~~~
-~~~sh
-
-~~~
+###
 
 ## Bibliographic References
 
