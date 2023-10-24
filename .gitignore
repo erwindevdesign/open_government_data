@@ -1,46 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/data,windows,android,macos,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=data,windows,android,macos,linux
-
-### Android ###
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
-
-### Android Patch ###
-gen-external-apklibs
-
-# Replacement of .externalNativeBuild directories introduced
-# with Android Studio 3.5.
+# Created by https://www.toptal.com/developers/gitignore/api/images,data,venv
+# Edit at https://www.toptal.com/developers/gitignore?templates=images,data,venv
 
 ### Data ###
 *.csv
@@ -56,78 +15,91 @@ gen-external-apklibs
 *.vcf
 *.xml
 
-### Linux ###
-*~
+### Images ###
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+assets/
 
-# KDE directory preferences
-.directory
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
 
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
 
-### macOS ###
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
+# Graphics Interchange Format
+*.gif
 
-# Icon must end with two \r
-Icon
+# RAW
+*.raw
+
+# Web P
+*.webp
+
+# Portable Network Graphics
+*.png
+
+# Animated Portable Network Graphics
+*.apng
+
+# Multiple-image Network Graphics
+*.mng
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+*.svg
+*.svgz
+
+# Portable Document Format
+*.pdf
+
+# X BitMap
+*.xbm
+
+# BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# 3D Images
+*.3dm
+*.max
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# End of https://www.toptal.com/developers/gitignore/api/images,data,venv
 
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-### macOS Patch ###
-# iCloud generated files
-*.icloud
-
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.toptal.com/developers/gitignore/api/data,windows,android,macos,linux
+# my
+node.md
+env/
