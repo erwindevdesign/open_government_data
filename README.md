@@ -100,8 +100,8 @@ In January 2018, the Mexican government implemented a new methodology for the re
                 </a>
             </li>
             <li>
-                <a href="#bibliographic-references">
-                Bibliographic References
+                <a href="#additional-resources">
+                Additional Resources
                 </a>
             </li>
         </ul>
@@ -1124,8 +1124,6 @@ Don't forget to give the project a star! **Thanks again!**
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <a name="license"></a>
 
 ### :scroll: License
@@ -1138,7 +1136,7 @@ Distributed under the MIT License. See LICENSE file for more information.
 
 @erwindevdesign - erwindevdesign@gmail.com
 
-Project Link: https://github.com/erwindevdesign/writing_mode_direction
+Pages: 
 
 <a name="acknowledgments"></a>
 
@@ -1150,25 +1148,28 @@ Project Link: https://github.com/erwindevdesign/writing_mode_direction
 
 We extend our gratitude to the author of the reference video for providing valuable insights that contributed to our development.
 
-<a name="bibliographic-references"></a>
+<a name="additional-resources"></a>
 
-### :page_with_curl: Bibliographic References
+### :page_with_curl: Additional Resources
 
 <div align="center">
 
-[![goberment image reference](data:image/jpeg;base64,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)](https://www.gob.mx/sesnsp/acciones-y-programas/incidencia-delictiva-299891?state=published)
-
-> [Información sobre violencia contra las mujeres (Incidencia delictiva y llamadas de emergencia 9-1-1), agosto 2023.](https://www.gob.mx/sesnsp/articulos/informacion-sobre-violencia-contra-las-mujeres-incidencia-delictiva-y-llamadas-de-emergencia-9-1-1-febrero-2019?idiom=es) Recurso de Google Drive.
-
-> [Datos Abiertos de Incidencia Delictiva. ](https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva?state=published) [Cifras de Víctimas del Fuero Común, 2015 - agosto 2023](https://drive.google.com/file/d/1JsXir5EGFMcEjtJKzZSu7hSdEt5zYOX9/view?usp=sharing)
-
-[![video reference](https://i.ytimg.com/vi/x2DxiL8WOmc/hqdefault.jpg)](https://youtu.be/x2DxiL8WOmc?si=6A3F2v-AETN6EtJM)
-
-> [Mariya MariyaSha. Python Simplified.](https://www.youtube.com/@PythonSimplified)
-
-> [Read Giant Datasets Fast - 3 Tips For Better Data Science Skills. YouTube.](https://www.youtube.com/watch?v=x2DxiL8WOmc) (2023)
+[![Government Image Reference](https://www.gob.mx/cms/uploads/press/main_image/157910/post_gobierno_mexico_.jpg)](https://www.gob.mx/sesnsp/acciones-y-programas/incidencia-delictiva-299891?state=published)
 
 </div>
+
+> Executive Secretariat of the National Public Security System. (October 17, 2023). "Common Jurisdiction Victims Figures, 2015 - September 2023". [Dataset File](https://drive.google.com/file/d/1JsXir5EGFMcEjtJKzZSu7hSdEt5zYOX9/view?usp=sharing). Retrieved from the [official government website](https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva?state=published).
+
+> Executive Secretariat of the National Public Security System. (September 25, 2023). "Information on Violence Against Women (Criminal Incidents and 9-1-1 Emergency Calls), August 2023".  [Official Government Website](https://www.gob.mx/sesnsp/articulos/informacion-sobre-violencia-contra-las-mujeres-incidencia-delictiva-y-llamadas-de-emergencia-9-1-1-febrero-2019?idiom=es). [[PDF](https://drive.google.com/file/d/19wXac8xDT4MV8QXK2ZhgrWWoCR9hNBYp/view)].
+
+<div align="center">
+
+[![Video Reference](https://i.ytimg.com/vi/x2DxiL8WOmc/hqdefault.jpg)](https://youtu.be/x2DxiL8WOmc?si=6A3F2v-AETN6EtJM)
+
+</div>
+
+> Mariya MariyaSha. (March 6, 2023). "Reading Large Datasets Quickly - 3 Tips for Improving Data Science Skills". [YouTube](https://www.youtube.com/watch?v=x2DxiL8WOmc).
+
 
 <!-- ## Additional Resources
 
@@ -1194,8 +1195,14 @@ Estructura de referencias bibliograficas:
  
   -->
 
+
+<div align="center" max-width="70vw" >
 <br>
 <br>
-    <p align="center">
-        <a href="#readme-top">@erwindevdesign</a>
-    </p>
+<br>
+
+[![personal_branding](https://drive.google.com/uc?export=view&id=1wBpfw_H6qm9VIMz1Uu50-LUbpypqTMO4)](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
+
+[@erwindevdesign](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
+</div>
+
