@@ -2,8 +2,8 @@
 
 <div align="center">
     <img src="https://drive.google.com/uc?export=view&id=1aA_4Uo08zyi-wXtKRept0aTyIiGlAsb7" width="95vw">
-        <h1>Information on Violence Against Women</h1>
-            <h2>Data Exploration and Optimization Analysis</h2>
+    <h1>Information on Violence Against Women</h1>
+        <h2>Data Exploration and Optimization Analysis</h2>
 </div>
 
 In January 2018, the Mexican government implemented a new methodology for the registration and classification of crimes and victims, which allows for the preparation of a statistical report on alleged crimes against women. This project will use open data extracted from official Mexican government websites to implement data exploration, cleaning, and validation methods. These methods will be used to create visualizations similar to those provided on these websites for statistical purposes.
@@ -171,17 +171,17 @@ In addition, the project uses open data provided by the Mexican government. This
 
 To get a local copy of the project up and running, follow these simple steps:
 
-1. Clone the repository:
-
-```sh
-git clone https://github.com/<username>/<project-name>    **    <---
-```
-
-2. Create a working directory for hosting the files for the analysis:
+1. Create a working directory for hosting the files for the analysis:
 
 ```sh
 ❯ mkdir hosting_folder_name
 ❯ cd hosting_folder_name
+```
+
+2. Clone the repository:
+
+```sh
+git clone https://github.com/erwindevdesign/open_government_data.git
 ```
 
 3. Create a virtual environment in the current working directory to manage projects with different dependencies, and install the Python packages and libraries:
@@ -211,11 +211,10 @@ data
 venv
 ```
 
-6. Download the contents of the data folder from the following cloud link:
+6. Download the [contents](https://drive.google.com/drive/folders/1QFvRC7E9biw8x6y_I3CalyWy14Fb7Yfh?usp=sharing) of the data folder from the following cloud link:
 
-```sh
-# TODO: Add cloud link here
-```
+[Download](https://drive.google.com/drive/folders/1QFvRC7E9biw8x6y_I3CalyWy14Fb7Yfh?usp=sharing)
+
 <a name="folder-structure"></a>
 
 #### :cactus: Folder Structure
@@ -255,7 +254,8 @@ The code presented in this repository is designed to be executed in a command-li
     * Size: 10.6+ MB
     * Data Shape:  (66240, 21)
     * Rename: **data_victims.csv**
-[IDVFC_NM_jul23.csv](https://drive.google.com/file/d/1rXHjOxSXeTJhOwoDb6fdar_YApa7Pe43/view)
+
+Download: [IDVFC_NM_jul23.csv](https://drive.google.com/file/d/1rXHjOxSXeTJhOwoDb6fdar_YApa7Pe43/view)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -493,12 +493,12 @@ The data exploration revealed the following key findings:
 ##### Objective:
 
 - Validate the data to be used in the visualizations that will be created later:
-
+~~~
   - PERCENTAGE OF CRIMES BY PROTECTED LEGAL INTEREST
   - RELATIVE PARTICIPATION OF TOTAL VICTIMS BY GENDER (%)
   - RELATIVE PARTICIPATION OF ALLEGED FEMALE VICTIMS BY CRIME (%)
   - ALLEGED FEMICIDE CRIMES: NATIONAL TREND
-
+~~~
 ##### Method:
 
 - Structure the business logic.
@@ -792,14 +792,24 @@ Diciembre     40    50    55   101    96    85    82    75     0
 
 #### :red_circle: Data Visualization
 
+##### Introduction:
+
+This project will create visualizations of a data set of [data set description]. The goals of the project are to [list of goals]. The target audience is [target audience].
+
 ##### Objective:
 
-- Una vez que se validen los datos, crearemos las visualizaciones correspondientes.
-- Comparar las visualizaciones con el referente de la fuente donde se extrayeron los datos.
+- Once the data is validated, we will create the corresponding visualizations.
+~~~
+  * PERCENTAGE OF CRIMES BY PROTECTED LEGAL INTEREST
+  * RELATIVE PARTICIPATION OF TOTAL VICTIMS BY GENDER (%)
+  * RELATIVE PARTICIPATION OF ALLEGED FEMALE VICTIMS BY CRIME (%)
+  * ALLEGED FEMICIDE CRIMES: NATIONAL TREND
+~~~
+- Compare the visualizations with the reference from the source where the data was extracted.
 
 ##### Method:
 
-- Creación de visualizaciones haciendo uso de la libreria `Matplotlib`.
+- Create visualizations using the `Matplotlib` library.
 
 :one: PERCENTAGE OF CRIMES BY PROTECTED LEGAL INTEREST
 
