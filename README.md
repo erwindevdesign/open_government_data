@@ -1214,6 +1214,10 @@ Estructura de referencias bibliograficas:
 
 <img src="https://drive.google.com/uc?export=view&id=1wBpfw_H6qm9VIMz1Uu50-LUbpypqTMO4">
 
+</div>
+
+<div align="center" max-width="70vw" >
+
 [@erwindevdesign](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
 
 </div>
