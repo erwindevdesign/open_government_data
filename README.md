@@ -1007,8 +1007,11 @@ plt.show()
 
 <br />
 <div align="center">
+
 <img src="https://drive.google.com/uc?export=view&id=1S5JugqaArm8wK-8UWBmNpFdpAKHj-Ozh">
+
 <img src="https://drive.google.com/uc?export=view&id=1XCqenfD3INsyx1i52mJTd-TV9CnFAGxm">
+
 </div>
 
 
@@ -1201,8 +1204,13 @@ Estructura de referencias bibliograficas:
 <br>
 <br>
 
+
+
 [![personal_branding](https://drive.google.com/uc?export=view&id=1wBpfw_H6qm9VIMz1Uu50-LUbpypqTMO4)](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
 
+
 [@erwindevdesign](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
+
+
 </div>
 
