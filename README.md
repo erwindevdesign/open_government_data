@@ -14,64 +14,110 @@ Criminal incidence refers to the alleged occurrence of crimes recorded in prelim
 
 <details>
     <summary><b>📖 Table of Contents</b></summary>
-        <ol>
+        <ul>
             <li>
-                <a href="#about-the-project">
-                About The Project
+                <a href="#about-the-project" >
+                📝 About The Project
                 </a>
             </li>
             <li>
                 <a href="#built-with">
-                Built With
+                🛠️ Built With
                 </a>
             </li>
             <li>
                 <a href="#prerequisites">
-                Prerequisites
+                📋 Prerequisites
                 </a>
                 <ul>
                     <li>
                         <a href="#to-get-stated">
-                        To get started
+                        🎒 To get started
                         </a>
                     </li>
                     <li>
                         <a href="#folder-structure"> 
-                        Folder Structure
+                        🌵 Folder Structure
                         </a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="#dataset">
-                Dataset
+                💾 Dataset
                 </a>
             </li>
             <li>
-                <a href="#usage">
-                Usage
+                <a href="#lets-start">
+                📊 Lets-start
                 </a>
             </li>
-        </ol>
+            <ol>
+                    <li>
+                        <a href="#data-exploration"> 
+                        ❗ Data Exploration
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#data-cleaning"> 
+                        ❌ Data Cleaning
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#data-validation"> 
+                        ⭕ Data Validation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#data-visualization"> 
+                        🔴 Data Visualization
+                        </a>
+                    </li>
+                </ol>
+            <li>
+                <a href="#contributing">
+                👤 Contributing
+                </a>
+            </li>
+            <li>
+                <a href="#license">
+                📜 License
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                📱 Contact
+                </a>
+            </li>
+            <li>
+                <a href="#acknowledgments">
+                💬 Acknowledgments
+                </a>
+            </li>
+            <li>
+                <a href="#bibliographic-references">
+                📃 Bibliographic References
+                </a>
+            </li>
+        </ul>
 </details>
 
-### 📝 About The Project
+<a name="about-the-project"></a>
+
+### 📝 About The Project 
 
 This analysis is conducted to implement best practices in the utilization and exploration of large-scale datasets, aiming to minimize resource consumption on the device where the analysis is performed.
 
 For efficient data handling, it's essential to consider:
 
-- Prioritize Relevant Data.
-
-- Load data in small chunks.
-
-- Access and change data chunks values.
-
-- Save modified data into a new csv\* file.
-
-- Employing optimal algorithms for processing large datasets.
-- Utilizing memory-efficient techniques to mitigate resource usage.
-- Fine-tuning execution parameters based on available hardware capacity.
+- [x] Prioritize Relevant Data.
+- [x] Load data in small `chunks`.
+- [x] Access and change data `chunks` values.
+- [x] Save modified data into a new `csv\*` file.
+- [x] Employing optimal algorithms for processing large datasets.
+- [x] Utilizing memory-efficient techniques to mitigate resource usage.
+- [ ] Fine-tuning execution parameters based on available hardware capacity.
+- [ ] Testing.
 
 By following these practices, we aim to enhance the efficiency of our data analysis processes while achieving a more sustainable use of system resources. _Execution times and system resource utilization will depend on the capacity of the underlying hardware._
 
@@ -79,7 +125,9 @@ By following these practices, we aim to enhance the efficiency of our data analy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 🛠️ Built With
+<a name="built-with"></a>
+
+### 🛠️ Built With 
 
 This project was created with the following technologies:
 
@@ -98,7 +146,9 @@ This project was created with the following technologies:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 📋 Prerequisites
+<a name="prerequisites"></a>
+
+### 📋 Prerequisites 
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) <br>
 
@@ -109,6 +159,8 @@ This project uses the following Python libraries:
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
 In addition, the project uses open data provided by the Mexican government. This data is manipulated using best practices to ensure that the datasets have the same dimensions.
+
+<a name="to-get-stated"></a>
 
 #### :school_satchel: To get started
 
@@ -159,6 +211,7 @@ venv
 ```sh
 # TODO: Add cloud link here
 ```
+<a name="folder-structure"></a>
 
 #### :cactus: Folder Structure
 
@@ -186,6 +239,8 @@ code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<a name="dataset"></a>
+
 ### :floppy_disk: Dataset
 
 The code presented in this repository is designed to be executed in a command-line interface or terminal using the Python programming language. The analysis presented here will make use of [Open Data](https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva?state=published) related to [Criminal Incidence](https://www.gob.mx/sesnsp/acciones-y-programas/incidencia-delictiva-299891?state=published) provided by the government of Mexico and published on their [official websites](https://www.gob.mx/sesnsp/articulos/incidencia-delictiva). It focuses on their new methodology, which offers a more detailed breakdown of crimes, increasing from 22 to 53 different offenses grouped into 7 affected legal interests.
@@ -201,11 +256,15 @@ The code presented in this repository is designed to be executed in a command-li
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### :bar_chart: Usage
+<a name="lets-start"></a>
+
+### :bar_chart: Let's start
 
 #### Introduction
 
 In this phase, we will conduct a comprehensive test on the entire dataset, serving as a time benchmark. This benchmark will be used for performance comparison as we progress through the data exploration process. The aim is to optimize resource utilization and implement best practices for data analysis. After understanding the dataset's size and structure, the next step is to identify the specific data with which we will be working. This will be determined by the business logic or the objectives of the analysis. Once the relevant data to the analysis are selected, we will proceed to validate the hypotheses and theories about the data. With the validation of the data, we will create the visualizations objective of the analysis.
+
+<a name="data-exploration"></a>
 
 #### :heavy_exclamation_mark: Data Exploration
 
@@ -323,6 +382,8 @@ The execution times and system resource utilization will depend on the underlyin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<a name="data-cleaning"></a>
+
 #### :x: Data Cleaning
 
 ##### Objective:
@@ -419,6 +480,8 @@ The data exploration revealed the following key findings:
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="data-validation"></a>
 
 #### :o: Data Validation
 
@@ -719,6 +782,8 @@ Diciembre     40    50    55   101    96    85    82    75     0
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="data-visialization"></a>
 
 #### :red_circle: Data Visualization
 
@@ -1026,7 +1091,9 @@ plt.grid(True)
 plt.show()
 ~~~
 
-### Contributing
+<a name="contributing"></a>
+
+### :bust_in_silhouette: Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -1039,23 +1106,35 @@ Don't forget to give the project a star! **Thanks again!**
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### License
+
+
+<a name="license"></a>
+
+### :scroll: License
 
 Distributed under the MIT License. See LICENSE file for more information.
 
-### Contact
+<a name="contact"></a>
+
+### :iphone: Contact
 
 @erwindevdesign - erwindevdesign@gmail.com
 
 Project Link: https://github.com/erwindevdesign/writing_mode_direction
 
-### Acknowledgments
+<a name="acknowledgments"></a>
+
+### :speech_balloon: Acknowledgments
 
 - [Gitignore file](https://www.toptal.com/developers/gitignore/)
 - [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
 - [Contributing to projects by GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects?tool=webui)
 
-## Bibliographic References
+We extend our gratitude to the author of the reference video for providing valuable insights that contributed to our development.
+
+<a name="bibliographic-references"></a>
+
+### :page_with_curl: Bibliographic References
 
 <div align="center">
 
@@ -1072,10 +1151,6 @@ Project Link: https://github.com/erwindevdesign/writing_mode_direction
 > [Read Giant Datasets Fast - 3 Tips For Better Data Science Skills. YouTube.](https://www.youtube.com/watch?v=x2DxiL8WOmc) (2023)
 
 </div>
-
-### Attributions
-
-We extend our gratitude to the author of the reference video for providing valuable insights that contributed to our development.
 
 <!-- ## Additional Resources
 
@@ -1101,7 +1176,6 @@ Estructura de referencias bibliograficas:
  
   -->
 
-<br>
 <br>
 <br>
     <p align="center">
