@@ -7,96 +7,100 @@
 </div>
 
 In January 2018, the Mexican government implemented a new methodology for the registration and classification of crimes and victims, which allows for the preparation of a statistical report on alleged crimes against women. This project will use open data extracted from official Mexican government websites to implement data exploration, cleaning, and validation methods. These methods will be used to create visualizations similar to those provided on these websites for statistical purposes.
+<br />
+<div align="center">
+<img src="https://drive.google.com/uc?export=view&id=1S5JugqaArm8wK-8UWBmNpFdpAKHj-Ozh">
+</div>
 
 ```
 Criminal incidence refers to the alleged occurrence of crimes recorded in preliminary investigations initiated or cases reported by the State Attorney General's Offices and General Prosecutors of the federal entities in the case of common law and by the Attorney General's Office of the Republic in the federal jurisdiction.
 ```
 
 <details>
-    <summary><b>📖 Table of Contents</b></summary>
+    <summary><b>Table of Contents</b></summary>
         <ul>
             <li>
                 <a href="#about-the-project" >
-                📝 About The Project
+                About The Project
                 </a>
             </li>
             <li>
                 <a href="#built-with">
-                🛠️ Built With
+                Built With
                 </a>
             </li>
             <li>
                 <a href="#prerequisites">
-                📋 Prerequisites
+                Prerequisites
                 </a>
                 <ul>
                     <li>
                         <a href="#to-get-stated">
-                        🎒 To get started
+                        To get started
                         </a>
                     </li>
                     <li>
                         <a href="#folder-structure"> 
-                        🌵 Folder Structure
+                        Folder Structure
                         </a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="#dataset">
-                💾 Dataset
+                Dataset
                 </a>
             </li>
             <li>
                 <a href="#lets-start">
-                📊 Lets-start
+                Lets-start
                 </a>
             </li>
             <ol>
                     <li>
                         <a href="#data-exploration"> 
-                        ❗ Data Exploration
+                        Data Exploration
                         </a>
                     </li>
                     <li>
                         <a href="#data-cleaning"> 
-                        ❌ Data Cleaning
+                        Data Cleaning
                         </a>
                     </li>
                     <li>
                         <a href="#data-validation"> 
-                        ⭕ Data Validation
+                        Data Validation
                         </a>
                     </li>
                     <li>
                         <a href="#data-visualization"> 
-                        🔴 Data Visualization
+                        Data Visualization
                         </a>
                     </li>
                 </ol>
             <li>
                 <a href="#contributing">
-                👤 Contributing
+                Contributing
                 </a>
             </li>
             <li>
                 <a href="#license">
-                📜 License
+                License
                 </a>
             </li>
             <li>
                 <a href="#contact">
-                📱 Contact
+                Contact
                 </a>
             </li>
             <li>
                 <a href="#acknowledgments">
-                💬 Acknowledgments
+                Acknowledgments
                 </a>
             </li>
             <li>
                 <a href="#bibliographic-references">
-                📃 Bibliographic References
+                Bibliographic References
                 </a>
             </li>
         </ul>
