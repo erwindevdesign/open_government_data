@@ -7,14 +7,15 @@
 </div>
 
 In January 2018, the Mexican government implemented a new methodology for the registration and classification of crimes and victims, which allows for the preparation of a statistical report on alleged crimes against women. This project will use open data extracted from official Mexican government websites to implement data exploration, cleaning, and validation methods. These methods will be used to create visualizations similar to those provided on these websites for statistical purposes.
+
+
 <br />
 <div align="center">
 <img src="https://drive.google.com/uc?export=view&id=1S5JugqaArm8wK-8UWBmNpFdpAKHj-Ozh">
 </div>
 
-```
-Criminal incidence refers to the alleged occurrence of crimes recorded in preliminary investigations initiated or cases reported by the State Attorney General's Offices and General Prosecutors of the federal entities in the case of common law and by the Attorney General's Office of the Republic in the federal jurisdiction.
-```
+###### ***Criminal incidence refers to the alleged occurrence of crimes recorded in preliminary investigations initiated or cases reported by the State Attorney General's Offices and General Prosecutors of the federal entities in the case of common law and by the Attorney General's Office of the Republic in the federal jurisdiction.***
+
 
 <details>
     <summary><b>Table of Contents</b></summary>
@@ -802,6 +803,7 @@ Diciembre     40    50    55   101    96    85    82    75     0
 
 :one: PERCENTAGE OF CRIMES BY PROTECTED LEGAL INTEREST
 
+
 <br />
 <div align="center">
 <img src="https://drive.google.com/uc?export=view&id=1Ao0QphQzVmPLpyCU7LTNKdEnHgu7I0nI">
@@ -862,6 +864,7 @@ print(f"Elapsed time: {end - start:.2f} min")
 plt.show()
 ~~~
 :two: RELATIVE PARTICIPATION OF TOTAL VICTIMS BY GENDER (%)
+
 
 <br />
 <div align="center">
@@ -990,6 +993,7 @@ plt.show()
 ~~~
 
 :four: ALLEGED FEMICIDE CRIMES: NATIONAL TREND
+
 
 <br />
 <div align="center">
