@@ -878,8 +878,11 @@ plt.show()
 
 <br />
 <div align="center">
+
 <img src="https://drive.google.com/uc?export=view&id=1lox1VnzlWFZ4vPEdVRNAUAMOHjC7YVuT">
+
 <img src="https://drive.google.com/uc?export=view&id=1YSyRBjrQFEERnnCdpSvxB4xcxXKWW0mR">
+
 </div>
 
 ~~~py
@@ -940,8 +943,11 @@ plt.show()
 
 <br />
 <div align="center">
+
 <img src="https://drive.google.com/uc?export=view&id=1KyjYkC28Gu97NoCZjg88EQnGs1MbdQIa">
+
 <img src="https://drive.google.com/uc?export=view&id=1K6nn63010rqTRXp3KnsUqjFTTSSZ4rve">
+
 </div>
 
 ~~~py
@@ -1199,18 +1205,16 @@ Estructura de referencias bibliograficas:
   -->
 
 
+
+<br>
+<br>
+<br>
+
 <div align="center" max-width="70vw" >
-<br>
-<br>
-<br>
 
-
-
-[![personal_branding](https://drive.google.com/uc?export=view&id=1wBpfw_H6qm9VIMz1Uu50-LUbpypqTMO4)](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
-
+<img src="https://drive.google.com/uc?export=view&id=1wBpfw_H6qm9VIMz1Uu50-LUbpypqTMO4">
 
 [@erwindevdesign](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
-
 
 </div>
 
