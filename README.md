@@ -6,12 +6,16 @@
         <h2>Data Exploration and Optimization Analysis</h2>
 </div>
 
+
 In January 2018, the Mexican government implemented a new methodology for the registration and classification of crimes and victims, which allows for the preparation of a statistical report on alleged crimes against women. This project will use open data extracted from official Mexican government websites to implement data exploration, cleaning, and validation methods. These methods will be used to create visualizations similar to those provided on these websites for statistical purposes.
 
 
 <br />
+
 <div align="center">
-<img src="https://drive.google.com/uc?export=view&id=1S5JugqaArm8wK-8UWBmNpFdpAKHj-Ozh">
+
+<img src="https://drive.google.com/uc?export=view&id=1d6YHYQiBwsBA-sNAnVyGDLovLu4FeJ3C">
+
 </div>
 
 ###### ***Criminal incidence refers to the alleged occurrence of crimes recorded in preliminary investigations initiated or cases reported by the State Attorney General's Offices and General Prosecutors of the federal entities in the case of common law and by the Attorney General's Office of the Republic in the federal jurisdiction.***
@@ -815,9 +819,17 @@ This project will create visualizations of a data set of [data set description].
 
 
 <br />
+
 <div align="center">
-<img src="https://drive.google.com/uc?export=view&id=1Ao0QphQzVmPLpyCU7LTNKdEnHgu7I0nI">
-<img src="https://drive.google.com/uc?export=view&id=1CYZ5_d8wwdhYQi9De5zRJ_dgygdigpZl">
+
+<img src="https://drive.google.com/uc?export=view&id=1uyFIKk2MDQ82pWZ-S_TZBZkhLOO5F5Se">
+
+</div>
+
+<div align="center">
+
+<img src="https://drive.google.com/uc?export=view&id=1ZQTjqenKEv9l18HxQe71eKWyyQ-rR-Js">
+
 </div>
 
 ~~~py
@@ -875,13 +887,17 @@ plt.show()
 ~~~
 :two: RELATIVE PARTICIPATION OF TOTAL VICTIMS BY GENDER (%)
 
-
 <br />
+
 <div align="center">
 
-<img src="https://drive.google.com/uc?export=view&id=1lox1VnzlWFZ4vPEdVRNAUAMOHjC7YVuT">
+<img src="https://drive.google.com/uc?export=view&id=1Ympg09ETYBJSguTVEXJaCMBC52FxwbQK">
 
-<img src="https://drive.google.com/uc?export=view&id=1YSyRBjrQFEERnnCdpSvxB4xcxXKWW0mR">
+</div>
+
+<div align="center">
+
+<img src="https://drive.google.com/uc?export=view&id=1NQnIT3ycaXVt9PBdpSahn9yVwxZHj0hp">
 
 </div>
 
@@ -942,11 +958,16 @@ plt.show()
 
 
 <br />
+
 <div align="center">
 
-<img src="https://drive.google.com/uc?export=view&id=1KyjYkC28Gu97NoCZjg88EQnGs1MbdQIa">
+<img src="https://drive.google.com/uc?export=view&id=1xuJYPOKaMwn6Mv3dfT82wH0zKDs_PJpl">
 
-<img src="https://drive.google.com/uc?export=view&id=1K6nn63010rqTRXp3KnsUqjFTTSSZ4rve">
+</div>
+
+<div align="center">
+
+<img src="https://drive.google.com/uc?export=view&id=1OPrCgAirt7dmPbpPT_LhGXDxTAokDE8F">
 
 </div>
 
@@ -1014,12 +1035,11 @@ plt.show()
 <br />
 <div align="center">
 
-<img src="https://drive.google.com/uc?export=view&id=1S5JugqaArm8wK-8UWBmNpFdpAKHj-Ozh">
+<img src="https://drive.google.com/uc?export=view&id=1d6YHYQiBwsBA-sNAnVyGDLovLu4FeJ3C">
 
-<img src="https://drive.google.com/uc?export=view&id=1XCqenfD3INsyx1i52mJTd-TV9CnFAGxm">
+<img src="https://drive.google.com/uc?export=view&id=1RTgBmjuf-irTMwRi8xHEzuU4s9vY9DHE">
 
 </div>
-
 
 ~~~py
 import matplotlib.pyplot as plt
